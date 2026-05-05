@@ -24,6 +24,7 @@ console.log("Indice invalido."); return;
 let rem = tarefas.splice(indice - 1, 1);
 console.log("Removida: " + rem[0].descricao);
 }
+
 // Teste
 adicionarTarefa("Tarefa B");
 removerTarefa(1); listarTarefas();
